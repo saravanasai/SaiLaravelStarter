@@ -1,0 +1,24 @@
+{
+    "name": "saravanasai/laravelstarter",
+    "description": "Laravel Starter Kit with AdminLTE Theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saravana Sai",
+            "email": "saravanasai002@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SaravanaSai\\Laravelstarter\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SaravanaSai\\Laravelstarter\\Providers\\LaravelstarterServiceProvider"
+            ]
+        }
+    },
+    "version": "1.0.0"
+}
