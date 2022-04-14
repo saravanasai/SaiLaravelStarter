@@ -45,7 +45,7 @@ class InstallCommand extends Command
 
 
         //section for copying the adminLTE assets
-        $this->info('copying assets');
+        $this->info('copying.. assets');
         $bar->start();
         (new Filesystem)->copyDirectory(__DIR__ . '/../../resources/adminLte/', public_path('adminLte'));
         $bar->advance();
